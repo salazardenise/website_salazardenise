@@ -1,0 +1,142 @@
+/* This the style sheet for index.html. */
+
+body{
+    background:  #FAF7F3; /* a light tan color */
+    font-family: Garamond, Cambria, Palatino, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Style for the header. */
+
+header{
+    position: relative;
+    /* Beach picture cover option for later
+    background-image: url('../images/SantaCruz.JPG'); 
+    */
+    background:  #E55EA2;
+}
+
+h1{
+    font-variant: small-caps;
+    color: #FFFFFF;
+    font-family: Garamond, Cambria, Palatino, Arial;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+h2{
+    font-variant: small-caps;
+    color: #000000;
+    font-family: Garamond, Cambria, Palatino, Arial;
+    margin-left: 20px;
+}
+
+.santacruz{
+    opacity: 0.3;
+    filter: aplha(opacity=30);
+}
+
+/* Style for headshot. */
+
+.aroundheadshot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.headshot{
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+}
+
+.quote{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Style for bio pargraphs. */
+.bio{
+}
+
+.horizontal-divider{
+    margin: 20px 0;
+}
+
+.aboutme{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Style the social media icons in the links section. */
+
+.links{
+}
+
+ul{
+    text-align: center;
+}
+
+.socicon-twitter{
+    background: #55ACEE;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.socicon-linkedin{
+    background: #007bb5;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.socicon-github{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.socicon-researchgate{
+    background: #0CB;
+    color: #FFFFFF;
+    padding: 10px;;
+    border-radius: 50%;
+}
+
+.socicon-googlescholar{
+    background: #55ACEE;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.socicon-twitter:hover, 
+.socicon-linkedin:hover, 
+.socicon-github:hover, 
+.socicon-researchgate:hover,
+.socicon-googlescholar:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+/* Style footer with copyright tag */
+footer {
+    background: #000000;
+    color: #D3D3D3;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom :10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
